@@ -1,0 +1,30 @@
+#title {
+  background-color: #e4e2e2;
+
+}
+#title .wrap {
+  height: 100%;
+  gap: 15px;
+  color: white;
+}
+#title .wrap .witem{
+
+}
+#title .wrap .witem:not(:nth-child(1)){
+    display: none;;
+}
+#title .wrap .witem1{
+  background-image: url(../img/title_01.jpg);
+}
+#title .wrap .witem2{
+
+}
+#title .wrap .witem3{
+
+}
+#title .wrap h2 {
+  order: 2;
+}
+#title .wrap p {
+  order: 1;
+}

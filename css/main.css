@@ -1,0 +1,177 @@
+section#promotion {
+
+}
+section#promotion .wrap {
+  height: 100%;
+  gap: 15px;
+}
+section#promotion .wrap h2 {
+
+}
+section#promotion .wrap p {
+  margin-bottom: 15px;
+}
+section#promotion .wrap iframe {
+  border: 1px solid #333;
+}
+
+section#business {
+
+}
+section#business .wrap {
+
+  height: 100%;
+  gap: 15px;
+}
+section#business .wrap h2 {
+
+}
+section#business .wrap p {
+
+}
+section#business .wrap ul {
+  gap: 55px;
+}
+section#business .wrap ul li {
+
+  width: 50%;
+}
+section#business .wrap ul li a {
+
+}
+section#business .wrap ul li a::before{
+  content: "";
+  width: 728px;
+  height: 335px;
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+}
+section#business .wrap ul li:nth-child(1) a::before{
+  background-image: url(../img/busi_01.png);
+  background-color: #eee;
+}
+section#business .wrap ul li:nth-child(2) a::before{
+  background-image: url(../img/busi_02.jpg);
+}
+section#business .wrap ul li a h3 {
+
+}
+section#business .wrap ul li a p {
+
+}
+section#products {
+  position: relative;
+}
+section#products .wrap {
+  height: 100%;
+  flex-direction: column-reverse;
+  /*! position: relative; */
+}
+section#products .wrap h2 {
+
+}
+section#products .wrap ul {
+  position: absolute;
+  bottom: 30px;
+}
+section#products .wrap ul li {
+
+}
+section#products .wrap ul li a {
+
+}
+section#products .wrap div {
+  height: 100%;
+}
+section#products .wrap div article {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+section#products .wrap div article:not(:first-child) {
+  display: none;
+}
+section#products .wrap div article h3 {
+
+}
+section#products .wrap div article figure{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+section#products .wrap div article figure img{
+
+}
+section#products .wrap div article p {
+
+}
+section#products .wrap div article a {
+
+}
+
+section#news {
+
+}
+section#news .wrap {
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+}
+section#news .wrap h2 {
+  columns: 1;
+}
+section#news .wrap h3 {
+  grid-column: 1;
+}
+section#news .wrap p {
+  grid-column: 1;
+}
+section#news .wrap ul {
+  grid-column: 2;
+  grid-row: 1 / span 5;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+section#news .wrap ul li {
+  grid-column: 1 / span 4;
+}
+section#news .wrap ul li:nth-child(5) {
+  grid-column: 1;
+}
+section#news .wrap ul li:nth-child(6) {
+  grid-column: 2;
+}
+section#news .wrap ul li:nth-child(7) {
+  grid-column: 3;
+}
+section#news .wrap ul li:nth-child(8) {
+  grid-column: 4;
+}
+section#news .wrap ul li a {
+
+}
+section#news .wrap ul li a figure{
+
+}
+section#news .wrap ul li a figure img{
+  border-radius: 20px;
+}
+section#news .wrap ul li a figure figcaption{
+
+}
+section#news .wrap ul li a span {
+
+}
+section#news .wrap ul li a time {
+
+}
+section#news .wrap a.more {
+
+}
