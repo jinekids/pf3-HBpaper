@@ -6,9 +6,10 @@
   height: 100%;
   gap: 15px;
   color: white;
+  max-width: 100%;
 }
 #title .wrap .witem{
-
+  height: 100%;
 }
 #title .wrap .witem:not(:nth-child(1)){
     display: none;;
