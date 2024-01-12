@@ -1,6 +1,22 @@
 header {
   position: fixed;
   width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+header::after {
+  content: "";
+  border: 50pf solid rgba(252, 5, 5, 0.7);
+  width: 0;
+  display: block;
+  height: 0;
+  border-left-color: rgba(252, 5, 5, 0.7);
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  border-right-width: calc(100vw - 100px);
+  border-left-width: 64px;
+  position: absolute;
+  border-top-width: 30px;
+  top: 0;
 }
 header .wrap {
   height: 100px;
