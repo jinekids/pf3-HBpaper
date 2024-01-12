@@ -214,7 +214,6 @@ section#news .wrap ul li a {
   
 }
 section#news .wrap ul li a figure{
-  
   position: relative;
   border-radius: 20px;
   overflow: hidden;
@@ -237,7 +236,6 @@ section#news .wrap ul li a figure figcaption{
   gap: 10px;
   line-height: 1.4;
   font-size: 14px;
-
   opacity:0;
   transition:1s;
 }
