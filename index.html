@@ -20,10 +20,12 @@
     <!--  -->
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/ham.css">
     <link rel="stylesheet" href="css/title.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/aside.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/response.css">
 </head>
 <body>
     <!-- 상단영역 -->
@@ -81,16 +83,22 @@
                 <a href="">KOR</a>
                 <a href="">ENG</a>
             </span>
+            <a href="" class="block ham hide">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
         </div>
     </header>
     <!-- 타이틀영역 -->
     <div id="title" class="vh100">
-        <div class="wrap ">
+        <div class="wrap">
             <div class="witem witem1 flex column align-center center">
-                <h2 class="h1">자연으로, 스마트하게</h2>
-                <p class="h5">그 소중한 가치를 알기에 우리는 돌아가려고 합니다.</p>
+                <h2 class="h1">자연으로,<span class="block"></span> 스마트하게</h2>
+                <p class="h5">그 소중한 가치를 알기에      
+                    우리는 돌아가려고 합니다.</p>
             </div>
-            <div class="witem witem2 flex column align-center center ">
+            <div class="witem witem2 flex column align-center center">
                 <h2 class="h1">HB PAPER</h2>
                 <p class="h5">자연의 선순환을 꿈꾸며 친환경 포장 문화를 만들어가는 기업</p>
             </div>
@@ -102,8 +110,6 @@
     </div>
     <!-- 메인영역 -->
     <main>
-
-
         <!-- promotion -->
         <section id="promotion" class="vh100">
             <div class="wrap flex column align-center center">
@@ -112,8 +118,6 @@
                 <iframe width="1520" height="551" src="https://www.youtube.com/embed/9HyfO_V5cLw" title="자연으로 스마트하게, HB PAPER 기업 소개 영상" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </section>
-
-
         <!-- business -->
         <section id="business" class="vh100">
             <div class="wrap flex column center">
@@ -136,14 +140,12 @@
                 </ul>
             </div>
         </section>
-
-
         <!-- products -->
         <section id="products" class="vh100">
             <div class="wrap flex column between">
                 <h2 class="hide">products</h2>
                 <ul class="flex">
-                    <li><a href="" class="block">종이 봉투</a></li>
+                    <li class="current"><a href="" class="block">종이 봉투</a></li>
                     <li><a href="" class="block">종이 쇼핑백</a></li>
                     <li><a href="" class="block">종이 안전 봉투</a></li>
                     <li><a href="" class="block">종이 식품 용기</a></li>
@@ -222,10 +224,8 @@
                 </div>
             </div>
         </section>
-
-
         <!-- news -->
-        <section id="news" class="vh100 flex column center">
+        <section id="news" class="vh100">
             <div class="wrap grid">
                 <h2 class="h5">NEWS & NOTICE</h2>
                 <h3 class="h2">HB PAPER의<span class="block"></span>
@@ -301,7 +301,7 @@
                                 <img src="img/news_04.jpg" alt="">
                                 <figcaption>
                                     <span>공지사항</span>
-                                    안녕하세요, HB PAPER입니다. HB G...
+                                    안녕하세요, HB PAPER입니다. HB G...
                                 </figcaption>
                             </figure>
                         </a>
@@ -311,18 +311,16 @@
             </div>
         </section>
     </main>
-
     <!-- 우측슬라이드아이콘 -->
     <aside>
         <ul>
-            <li><a href="" class="currentB eng">INTRO</a></li>
-            <li><a href="">VIDEO</a></li>
-            <li><a href="">BUSINESS</a></li>
-            <li><a href="">PRODUCTS</a></li>
-            <li><a href="">NWES</a></li>
+            <li><a href="" class="currentB eng">intro</a></li>
+            <li><a href="">video</a></li>
+            <li><a href="">business</a></li>
+            <li><a href="">products</a></li>
+            <li><a href="">news</a></li>
         </ul>
     </aside>
-
     <!-- 하단영역 -->
     <footer>
         <div class="wrap grid">
@@ -344,10 +342,10 @@
                     <li><a href="" class="block">온라인문의</a></li>
                 </ul>
                 <select name="" id="">
-                    <option value="">계열사 사이트</option>
-                    <option value="">HB 그룹</option>
-                    <option value="">HB 엠지티</option>
-                    <option value="">HB 세계로</option>
+                    <option value="">계열사사이트</option>
+                    <option value="">HB1</option>
+                    <option value="">HB2</option>
+                    <option value="">HB3</option>
                 </select>
             </div>
             <a href="" class="blog block">BLOG</a>
