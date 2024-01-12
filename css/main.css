@@ -1,3 +1,4 @@
+/* promotion */
 section#promotion {
   
 }
@@ -15,11 +16,11 @@ section#promotion .wrap iframe {
   border: 1px solid #333;
 }
 
+/* business */
 section#business {
   background-color: #eee;
 }
 section#business .wrap {
-  
   height: 100%;
   gap: 15px;
 }
@@ -55,20 +56,18 @@ section#business .wrap ul li:nth-child(1) a::before{
   transform: rotateY(0deg);
   transition: all 1s;
 }
-/* section#business .wrap ul li:nth-child(1) a:hover::before{
-  ! transform: rotateY(60deg);
-} */
 section#business .wrap ul li:nth-child(2) a::before{
   background-image: url(../img/busi_02.jpg);
 }
 section#business .wrap ul li a h3 {
-  
   margin-top: 30px;
   margin-bottom: 10px;
 }
 section#business .wrap ul li a p {
   
 }
+
+/* products */
 section#products{
   position: relative;
 }
@@ -158,6 +157,7 @@ section#products .wrap div article a {
   
 }
 
+/* news */
 section#news {
   display: flex;
   flex-direction: column;

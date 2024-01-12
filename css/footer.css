@@ -1,5 +1,4 @@
 footer {
-
   background-color: #222222;
 }
 footer .wrap {
@@ -66,12 +65,12 @@ footer .wrap address {
   color: #ccc;
 }
 footer .wrap address::before{
-content: "";  
-width: 100vw;
-display: block;
-border-top: 1px solid #ccc;
-margin-left: calc((1920px - 1520px) / -2);
-margin-bottom: 20px;
+  content: "";  
+  width: 100vw;
+  display: block;
+  border-top: 1px solid #ccc;
+  margin-left: calc((1920px - 1520px) / -2);
+  margin-bottom: 20px;
 }
 footer .wrap  p {
 
